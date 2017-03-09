@@ -174,6 +174,7 @@ public class OSMDownloadOpTest extends RepositoryTestCase {
         }
     }
 
+    @Ignore
     @Test
     public void testImportWithWrongUrl() throws Exception {
         try {
